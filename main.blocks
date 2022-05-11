@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="H4W_F*U/8TPF/):P_c-X" x="20" y="20"/><block type="device_forever" id="L[ea[t0:RlWOZl_rS`TM" x="57" y="126"><statement name="HANDLER"><block type="controls_if" id="ES#yQ(AJ`H(-91XeIGLz"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Z#YQL9xw_pE3{:Upt75/"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_acceleration" id="?5wY~LvH3x(r|FUL-+,2"><field name="NAME">Dimension.Y</field></block></value><value name="B"><shadow type="math_number" id="Y8wcN:]-G#LK0YU(5y(g"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="D34I%fNgko*FIec_CYw:"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="controls_if" id="%asO7{V)L;$dcn]Ca|`w"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="?f,.9!Y`5h/uyjDJZMb7"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_acceleration" id="-0soh-t{ho4k9~0te;u}"><field name="NAME">Dimension.X</field></block></value><value name="B"><shadow type="math_number" id=")dSd8~NYf`byZx]tXDMJ"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="0)B2r^{my0?_~v$p,,od"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="2H)h@MZBIi[@.}fM.,Rx"><field name="i">IconNames.Yes</field></block></statement></block></statement></block></statement></block></xml>
