@@ -1,5 +1,5 @@
 basic.forever(function () {
-    if (input.acceleration(Dimension.Y) < 200) {
+    if (input.isGesture(Gesture.LogoDown)) {
         basic.showLeds(`
             . . # . .
             . # # # .
@@ -8,7 +8,7 @@ basic.forever(function () {
             . . # . .
             `)
     } else {
-        if (input.acceleration(Dimension.Y) > 200) {
+        if (input.isGesture(Gesture.LogoUp)) {
             basic.showLeds(`
                 . . # . .
                 . . # . .
@@ -17,7 +17,7 @@ basic.forever(function () {
                 . . # . .
                 `)
         } else {
-            if (input.acceleration(Dimension.X) < -200) {
+            if (input.isGesture(Gesture.TiltRight)) {
                 basic.showLeds(`
                     . . # . .
                     . . . # .
@@ -26,7 +26,7 @@ basic.forever(function () {
                     . . # . .
                     `)
             } else {
-                if (input.acceleration(Dimension.X) > 200) {
+                if (input.isGesture(Gesture.TiltLeft)) {
                     basic.showLeds(`
                         . . # . .
                         . # . . .
